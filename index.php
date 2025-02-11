@@ -109,11 +109,59 @@
     </section>
 
     <!-- Facility Highlights Section -->
-    <section>
-        <div class="container">
-            Facility Highlights Section
+    <section class="facility-highlights-section py-5">
+        <div class="facility-overlay"></div> <!-- Overlay Katmanı -->
+        <div class="container position-relative">
+            <div class="row align-items-center">
+                <!-- Sol Kısım -->
+                <div class="col-lg-6 text-white">
+                    <h4 class="facility-subtitle">Tesisler</h4>
+                    <h2 class="facility-title">Gemak Altınova</h2>
+                    <p class="facility-description">
+                        Gemak Altınova, 2012 yılında Gemak Grup tarafından kurulmuştur.
+                        2013 yılında, 3. Boğaz Köprüsüne ait çelik tabliyelerin imalat
+                        sözleşmesinin imzalanması ile kurulum ve altyapı çalışmalarına başlanmıştır.
+                    </p>
+
+                    <!-- Öne Çıkan Özellikler -->
+                    <ul class="facility-features list-unstyled">
+                        <li>
+                            <img src="assets/images/icons/checkmark.svg" alt="Checkmark">
+                            Çelik İmalat ve Boyama Kapasitesi
+                        </li>
+                        <li>
+                            <img src="assets/images/icons/checkmark.svg" alt="Checkmark">
+                            Yüksek Taşıma Kapasiteli Altyapı
+                        </li>
+                        <li>
+                            <img src="assets/images/icons/checkmark.svg" alt="Checkmark">
+                            3. Boğaz Köprüsü Üretim Başarısı
+                        </li>
+                        <li>
+                            <img src="assets/images/icons/checkmark.svg" alt="Checkmark">
+                            İleri Teknoloji Atık Yönetim Sistemi
+                        </li>
+                        <li>
+                            <img src="assets/images/icons/checkmark.svg" alt="Checkmark">
+                            Enerji Gemisi (Powership) Dönüşüm Uzmanlığı
+                        </li>
+                        <li>
+                            <img src="assets/images/icons/checkmark.svg" alt="Checkmark">
+                            121.000 m² Modern Tesis Alanı
+                        </li>
+                    </ul>
+
+                    <!-- Detaylı Bilgi Butonu -->
+                    <a href="#" class="btn btn-primary facility-btn">
+                        Detaylı Bilgi
+                        <img src="assets/images/icons/arrow_right.svg" alt="Arrow">
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
+
+
 
     <!-- Innovation Section -->
     <section>
