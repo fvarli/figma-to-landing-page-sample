@@ -131,19 +131,19 @@
                         </div>
                         <div class="col-md-6 d-flex align-items-center">
                             <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
-                            <p>Yüksek Taşıma Kapasiteli Altyapı</p>
-                        </div>
-                        <div class="col-md-6 d-flex align-items-center">
-                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
-                            <p>3. Boğaz Köprüsü Üretim Başarısı</p>
-                        </div>
-                        <div class="col-md-6 d-flex align-items-center">
-                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
                             <p>İleri Teknoloji Atık Yönetim Sistemi</p>
                         </div>
                         <div class="col-md-6 d-flex align-items-center">
                             <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
+                            <p>Yüksek Taşıma Kapasiteli Altyapı</p>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
                             <p>Enerji Gemisi (Powership) Dönüşüm Uzmanlığı</p>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
+                            <p>3. Boğaz Köprüsü Üretim Başarısı</p>
                         </div>
                         <div class="col-md-6 d-flex align-items-center">
                             <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
@@ -153,7 +153,7 @@
 
 
                     <!-- Detaylı Bilgi Butonu -->
-                    <a href="#" class="btn btn-primary facility-btn">
+                    <a href="#" class="btn btn-primary facility-btn mt-5">
                         Detaylı Bilgi
                         <img src="assets/images/facility-highlights/right-arrow.svg" alt="Arrow">
                     </a>
