@@ -126,27 +126,27 @@
                     <!-- Öne Çıkan Özellikler -->
                     <ul class="facility-features list-unstyled">
                         <li>
-                            <img src="assets/images/icons/checkmark.svg" alt="Checkmark">
+                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
                             Çelik İmalat ve Boyama Kapasitesi
                         </li>
                         <li>
-                            <img src="assets/images/icons/checkmark.svg" alt="Checkmark">
+                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
                             Yüksek Taşıma Kapasiteli Altyapı
                         </li>
                         <li>
-                            <img src="assets/images/icons/checkmark.svg" alt="Checkmark">
+                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
                             3. Boğaz Köprüsü Üretim Başarısı
                         </li>
                         <li>
-                            <img src="assets/images/icons/checkmark.svg" alt="Checkmark">
+                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
                             İleri Teknoloji Atık Yönetim Sistemi
                         </li>
                         <li>
-                            <img src="assets/images/icons/checkmark.svg" alt="Checkmark">
+                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
                             Enerji Gemisi (Powership) Dönüşüm Uzmanlığı
                         </li>
                         <li>
-                            <img src="assets/images/icons/checkmark.svg" alt="Checkmark">
+                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
                             121.000 m² Modern Tesis Alanı
                         </li>
                     </ul>
@@ -154,7 +154,7 @@
                     <!-- Detaylı Bilgi Butonu -->
                     <a href="#" class="btn btn-primary facility-btn">
                         Detaylı Bilgi
-                        <img src="assets/images/icons/arrow_right.svg" alt="Arrow">
+                        <img src="assets/images/facility-highlights/right-arrow.svg" alt="Arrow">
                     </a>
                 </div>
             </div>
