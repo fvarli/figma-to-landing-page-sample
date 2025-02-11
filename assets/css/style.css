@@ -34,20 +34,20 @@
 /* Menü */
 .header__navigation {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .header__menu {
-    gap: 42px;
+    gap: 32px;
     align-self: center;
     display: flex;
-    flex-wrap: wrap;
 }
 
+/* Menü Linkleri */
 .header__menu-item {
     font-size: 16px;
     font-weight: 500;
-    color: #000000;
+    color: var(--black_900);
     text-transform: uppercase;
     transition: color 0.3s ease-in-out;
 }
@@ -59,7 +59,6 @@
 /* Arama İkonu */
 .header__search {
     height: 18px;
-    margin-left: 40px;
     cursor: pointer;
 }
 
@@ -73,24 +72,62 @@
 /* Dikey Çizgi */
 .header__divider {
     height: 14px;
-    margin-left: 8px;
-    background-color: var(--black_900);
     width: 1px;
+    background-color: black;
+    margin: 0 10px;
 }
 
-/* Responsive */
+/* Mobil İçin Responsive */
 @media (max-width: 991px) {
+    .header__top {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
     .header__menu {
         flex-direction: column;
         text-align: center;
-        gap: 20px;
+        gap: 15px;
+        width: 100%;
+        padding-top: 15px;
     }
 
-    .header__top {
-        flex-direction: column;
-        gap: 10px;
+    .header__menu-item {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .navbar-collapse {
+        background: var(--white_a700);
+        padding: 15px;
+        border-top: 1px solid #ddd;
+    }
+
+    /* Menü açıldığında animasyon */
+    .collapse:not(.show) {
+        display: none;
+    }
+
+    .header__search {
+        margin-left: 0;
+    }
+
+    /* Mobilde Arama ve Dil Seçici Menünün Altında Gözüksün */
+    .header__top .d-flex {
+        justify-content: flex-end;
+    }
+
+    .header__top .d-lg-none {
+        display: flex !important;
+    }
+
+    .header__top .d-none.d-lg-flex {
+        display: none !important;
     }
 }
+
 
 .experience-section .experience-description {
     font-size: 20px;
