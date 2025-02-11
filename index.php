@@ -15,7 +15,9 @@
 
     <!-- Hero Banner Section -->
     <section>
-        Hero Banner Section
+        <div class="container">
+            Hero Banner Section
+        </div>
     </section>
 
     <!-- Experience Section -->
@@ -28,7 +30,7 @@
             </div>
 
             <!-- Bilgiler Grid Sistemi -->
-            <div class="row pt-5 pb-5">
+            <div class="row pt-md-5 pt-sm-4 pb-md-5 pb-sm-4">
                 <div class="col-md-4 col-sm-6">
                     <div class="experience-box">
                         <img src="assets/images/experiences/muhendis.svg" alt="260 Mühendis">
@@ -53,7 +55,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 pt-5">
+                <div class="col-md-4 col-sm-6 pt-md-5 pt-sm-3">
                     <div class="experience-box">
                         <img src="assets/images/experiences/agirlik.svg" alt="82250 Ton">
                         <h3 class="pt-3 fw-bold fs-2">82250 Ton</h3>
@@ -61,7 +63,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 pt-5">
+                <div class="col-md-4 col-sm-6 pt-md-5 pt-sm-3">
                     <div class="experience-box">
                         <img src="assets/images/experiences/agirlik.svg" alt="3350 Ton">
                         <h3 class="pt-3 fw-bold fs-2">3350 Ton</h3>
@@ -69,7 +71,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 pt-5">
+                <div class="col-md-4 col-sm-6 pt-md-5 pt-sm-3">
                     <div class="experience-box">
                         <img src="assets/images/experiences/gemi.svg" alt="Gemi">
                         <h3 class="pt-3 fw-bold fs-2">2800 Gemi</h3>
@@ -77,7 +79,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 pt-5">
+                <div class="col-md-4 col-sm-6 pt-md-5 pt-sm-3">
                     <div class="experience-box">
                         <img src="assets/images/experiences/gemi-insasi.svg" alt="Gemi İnşası">
                         <h3 class="pt-3 fw-bold fs-2">57 Gemi İnşası</h3>
@@ -85,7 +87,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 pt-5">
+                <div class="col-md-4 col-sm-6 pt-md-5 pt-sm-3">
                     <div class="experience-box">
                         <img src="assets/images/experiences/donusum.svg" alt="Dönüşüm">
                         <h3 class="pt-3 fw-bold fs-2">23 Dönüşüm</h3>
@@ -93,7 +95,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 pt-5">
+                <div class="col-md-4 col-sm-6 pt-md-5 pt-sm-3">
                     <div class="experience-box">
                         <img src="assets/images/experiences/offshore.svg" alt="Offshore Hizmeti">
                         <h3 class="pt-3 fw-bold fs-2">17 Offshore Hizmeti</h3>
@@ -102,27 +104,36 @@
                 </div>
 
             </div>
+
         </div>
     </section>
 
     <!-- Facility Highlights Section -->
     <section>
-        Facility Highlights Section
+        <div class="container">
+            Facility Highlights Section
+        </div>
     </section>
 
     <!-- Innovation Section -->
     <section>
-        Innovation Section
+        <div class="container">
+            Innovation Section
+        </div>
     </section>
 
     <!-- Latest News Section -->
     <section>
-        Latest News Section
+        <div class="container">
+            Latest News Section
+        </div>
     </section>
 
     <!-- Contact Section -->
     <section>
-        Contact Section
+        <div class="container">
+            Contact Section
+        </div>
     </section>
 
 </main>
