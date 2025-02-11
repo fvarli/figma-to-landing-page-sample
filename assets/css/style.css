@@ -1,3 +1,97 @@
+:root {
+    --white_a700: #ffffff;
+    --black_900: #000000;
+    --space-2xl: 20px;
+}
+
+/* Genel Header Stilleri */
+.header {
+    padding-top: var(--space-2xl);
+    padding-bottom: var(--space-2xl);
+    display: flex;
+    background-color: var(--white_a700);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header Üst Alan */
+.header__top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: var(--space-2xl);
+}
+
+/* Logo */
+.header__logo {
+    height: 67px;
+}
+
+/* Menü */
+.header__navigation {
+    display: flex;
+    align-items: flex-end;
+}
+
+.header__menu {
+    gap: 42px;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__menu-item {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+.header__menu-item:hover {
+    color: #007bff;
+}
+
+/* Arama İkonu */
+.header__search {
+    height: 18px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+/* Dil Seçici */
+.header__language {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Dikey Çizgi */
+.header__divider {
+    height: 14px;
+    margin-left: 8px;
+    background-color: var(--black_900);
+    width: 1px;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .header__menu {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .header__top {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
 .experience-section .experience-description {
     font-size: 20px;
     font-weight: 400;;
