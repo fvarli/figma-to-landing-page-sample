@@ -109,8 +109,8 @@
     </section>
 
     <!-- Facility Highlights Section -->
-    <section class="facility-highlights-section py-5">
-        <div class="facility-overlay"></div> <!-- Overlay Katmanı -->
+    <section class="facility-highlights">
+        <div class="facility-overlay"></div> <!-- Koyu arkaplan efekti -->
         <div class="container position-relative">
             <div class="row align-items-center">
                 <!-- Sol Kısım -->
@@ -124,32 +124,33 @@
                     </p>
 
                     <!-- Öne Çıkan Özellikler -->
-                    <ul class="facility-features list-unstyled">
-                        <li>
+                    <div class="row facility-features">
+                        <div class="col-md-6 d-flex align-items-center">
                             <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
-                            Çelik İmalat ve Boyama Kapasitesi
-                        </li>
-                        <li>
+                            <p>Çelik İmalat ve Boyama Kapasitesi</p>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center">
                             <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
-                            Yüksek Taşıma Kapasiteli Altyapı
-                        </li>
-                        <li>
+                            <p>Yüksek Taşıma Kapasiteli Altyapı</p>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center">
                             <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
-                            3. Boğaz Köprüsü Üretim Başarısı
-                        </li>
-                        <li>
+                            <p>3. Boğaz Köprüsü Üretim Başarısı</p>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center">
                             <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
-                            İleri Teknoloji Atık Yönetim Sistemi
-                        </li>
-                        <li>
+                            <p>İleri Teknoloji Atık Yönetim Sistemi</p>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center">
                             <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
-                            Enerji Gemisi (Powership) Dönüşüm Uzmanlığı
-                        </li>
-                        <li>
+                            <p>Enerji Gemisi (Powership) Dönüşüm Uzmanlığı</p>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center">
                             <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
-                            121.000 m² Modern Tesis Alanı
-                        </li>
-                    </ul>
+                            <p>121.000 m² Modern Tesis Alanı</p>
+                        </div>
+                    </div>
+
 
                     <!-- Detaylı Bilgi Butonu -->
                     <a href="#" class="btn btn-primary facility-btn">
