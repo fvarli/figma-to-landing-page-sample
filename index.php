@@ -26,7 +26,7 @@
             <!-- Başlık ve Açıklama -->
             <div class="row col-lg-6">
                 <h2 class="fw-bold fs-1">50 Yıllık Deneyim</h2>
-                <p>Yarım asrı aşkın bir süredir, gemi inşası ve denizcilik sektöründe uzmanlaşarak küresel ölçekte güvenilir projelere imza atıyoruz.</p>
+                <p class="experience-description">Yarım asrı aşkın bir süredir, gemi inşası ve denizcilik sektöründe uzmanlaşarak küresel ölçekte güvenilir projelere imza atıyoruz.</p>
             </div>
 
             <!-- Bilgiler Grid Sistemi -->
