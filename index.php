@@ -214,9 +214,84 @@
     </section>
 
     <!-- Latest News Section -->
-    <section>
+    <section class="news-section py-5">
         <div class="container">
-            Latest News Section
+            <!-- Başlık -->
+            <div class="mb-4">
+                <h4 class="news-subtitle">Son Haberler</h4>
+                <h2 class="news-title">Gemak ile İlgili Son Haberler, Duyurular ve Gelişmeler</h2>
+            </div>
+
+            <!-- Haber Listesi -->
+            <div class="row pt-4">
+                <!-- Haber Kartı 1 -->
+                <div class="col-md-4">
+                    <div class="news-card">
+                        <img src="assets/images/news/news-1.png" class="news-image img-fluid" alt="News">
+                        <div class="news-content">
+                            <p class="news-date">20 Temmuz 2024</p>
+                            <h3 class="news-headline">
+                                GEMAK SHIPYARD, LNGC ve LNG Yakıtlı Gemi Sahipleri için Onaylandı!
+                            </h3>
+                            <p class="news-description">
+                                GEMAK SHIPYARD, ünlü GTT (Gaztransport & Technigaz, France) tarafından onaylı bakım ve onarım ortağı olarak seçildi.
+                            </p>
+                            <a href="#" class="news-read-more">
+                                Haberin Devamı
+                                <img src="assets/images/icons/arrow-right.svg" alt="Read More">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Haber Kartı 2 -->
+                <div class="col-md-4">
+                    <div class="news-card">
+                        <img src="assets/images/news/news-2.png" class="news-image img-fluid" alt="News">
+                        <div class="news-content">
+                            <p class="news-date">20 Temmuz 2024</p>
+                            <h3 class="news-headline">
+                                Dev Bir Gemi Tersanemize Demir Attı
+                            </h3>
+                            <p class="news-description">
+                                300 metre uzunluğunda ve 48 metre genişliğindeki M.V. CMA CGM LOIRE gemisi tersanemize yanaştı.
+                            </p>
+                            <a href="#" class="news-read-more">
+                                Haberin Devamı
+                                <img src="assets/images/icons/arrow-right.svg" alt="Read More">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Haber Kartı 3 -->
+                <div class="col-md-4">
+                    <div class="news-card">
+                        <img src="assets/images/news/news-3.png" class="news-image img-fluid" alt="News">
+                        <div class="news-content">
+                            <p class="news-date">20 Temmuz 2024</p>
+                            <h3 class="news-headline">
+                                Gemak Group, SMM Hamburg 2024 Fuarında!
+                            </h3>
+                            <p class="news-description">
+                                Hamburg'da düzenlenen SMM 2024 Fuarında denizcilik sektörü liderleri ile buluştuk.
+                            </p>
+                            <a href="#" class="news-read-more">
+                                Haberin Devamı
+                                <img src="assets/images/icons/arrow-right.svg" alt="Read More">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Daha Fazla Butonu -->
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary news-btn">
+                    Daha Fazla
+                    <img src="assets/images/icons/right-arrow.svg" alt="Arrow">
+                </a>
+            </div>
         </div>
     </section>
 
