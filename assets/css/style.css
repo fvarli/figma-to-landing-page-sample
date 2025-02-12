@@ -298,6 +298,8 @@
     flex-direction: column;
     flex-grow: 1;
     padding: 20px;
+    background-color: var(--white_a700);
+    border-bottom: 1px solid #2a4899;
 }
 
 /* Tarih */
@@ -325,7 +327,6 @@
 
 /* "Haberin Devamı" Butonu */
 .news-read-more {
-    padding-top: 22px;
     display: ruby;
     align-items: center;
     font-size: 16px;
@@ -341,17 +342,25 @@
 
 /* Daha Fazla Butonu */
 .news-btn {
-    display: inline-flex;
-    align-items: center;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 12px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #2a4899;
+    color: var(--white_a700);
     height: 44px;
-    text-decoration: none;
+    padding-left: var(--space-2xl);
+    padding-right: var(--space-2xl);
+    font-size: 18px;
     border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-weight: 500;
+    min-width: 158px;
+    gap: 8px;
+    text-decoration: none;
     transition: 0.3s;
+    display: inline-flex;
 }
 
 .news-btn img {
@@ -757,17 +766,6 @@
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-    .footer .row {
-        text-align: center;
-    }
-
-    .footer-newsletter {
-        flex-direction: column;
-    }
-}
-
-/* Responsive */
 
 @media (max-width: 991px) {
     .header__top {
@@ -884,6 +882,10 @@
 
     .news-title {
         font-size: 28px;
+    }
+
+    .footer__info-content {
+        display: inherit;
     }
 }
 

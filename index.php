@@ -236,7 +236,7 @@
                             <p class="news-description">
                                 We are proud to announce that GEMAK SHIPYARD has been nominated as an approved partner by the renowned GTT...
                             </p>
-                            <a href="#" class="news-read-more">
+                            <a href="#" class="news-read-more pt-4 pb-4">
                                 Haberin Devamı
                                 <img src="assets/images/icons/arrow-right.svg" alt="Read More">
                             </a>
@@ -256,7 +256,7 @@
                             <p class="news-description">
                                 Another giant vessel has just docked in our graving dock. M.V. CMA CGM LOIRE: Length: 300 meters Width: 48 meters
                             </p>
-                            <a href="#" class="news-read-more">
+                            <a href="#" class="news-read-more pt-4 pb-4">
                                 Haberin Devamı
                                 <img src="assets/images/icons/arrow-right.svg" alt="Read More">
                             </a>
@@ -276,7 +276,7 @@
                             <p class="news-description">
                                 A big thank you to everyone who visited our booth! It was a great pleasure to connect with shipowners, fleet operators, and industry...
                             </p>
-                            <a href="#" class="news-read-more">
+                            <a href="#" class="news-read-more pt-4 pb-4">
                                 Haberin Devamı
                                 <img src="assets/images/icons/arrow-right.svg" alt="Read More">
                             </a>
@@ -286,7 +286,7 @@
             </div>
 
             <!-- Daha Fazla Butonu -->
-            <div class="text-center mt-4">
+            <div class="text-center pt-5">
                 <a href="#" class="btn btn-primary news-btn">
                     Daha Fazla
                     <img src="assets/images/icons/right-arrow.svg" alt="Arrow">
