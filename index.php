@@ -231,10 +231,10 @@
                         <div class="news-content">
                             <p class="news-date">20 Temmuz 2024</p>
                             <h3 class="news-headline">
-                                Exciting Development from GEMAK SHIPYARD for LNGC and L...
+                                Exciting Development from GEMAK SHIPYARD for LNGC and LNG-Fueled Vessel Owners and Managers!
                             </h3>
                             <p class="news-description">
-                                We are proud to announce that GEMAK SHIPYARD has been nominated as an approved partner by the renowned GTT...
+                                We are proud to announce that GEMAK SHIPYARD has been nominated as an approved partner by the renowned GTT (Gaztransport & Technigaz, France) for the maintenance and repair of membrane containment systems.
                             </p>
                             <a href="#" class="news-read-more pt-4 pb-4">
                                 Haberin Devamı
@@ -271,10 +271,10 @@
                         <div class="news-content">
                             <p class="news-date">20 Temmuz 2024</p>
                             <h3 class="news-headline">
-                                As Gemak Group, we participated in the SMM Hamburg 2024 betwe...
+                                As Gemak Group, we participated in the SMM Hamburg 2024 between 3-6 September in Hamburg, Germany.
                             </h3>
                             <p class="news-description">
-                                A big thank you to everyone who visited our booth! It was a great pleasure to connect with shipowners, fleet operators, and industry...
+                                A big thank you to everyone who visited our booth! It was a great pleasure to connect with shipowners, fleet operators, and industry professionals from all around the world.
                             </p>
                             <a href="#" class="news-read-more pt-4 pb-4">
                                 Haberin Devamı
