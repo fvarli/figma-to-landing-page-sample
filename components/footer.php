@@ -16,58 +16,173 @@
 
 <!-- Footer -->
 <footer class="footer">
-    <div class="row">
-        <!-- Logo ve Açıklama -->
-        <div class="col-md-4">
-            <img src="assets/images/footer/footer-logo.png" alt="Footer Logo" class="footer-logo">
-            <p class="footer-description">
-                Gemak, 1969'dan beri gemi inşası, bakım, çelik yapı üretimiyle sektörde lider,
-                4 tesiste global projelere hizmet veriyor.
-            </p>
-            <p class="footer-newsletter-text">Daha fazlası için e-bültenimize kayıt olun!</p>
-            <div class="footer-newsletter">
-                <input type="text" class="form-control" placeholder="E-Bülten">
-                <button class="btn btn-primary newsletter-btn">Kayıt Ol</button>
-            </div>
-        </div>
+    <div class="footer__info">
+        <div class="footer__info-row">
+            <div class="footer__info-content">
+                <div class="footer__info-content-row">
+                    <div class="footer__info-content-column">
+                        <div class="section__description-column">
+                            <img src="assets/images/footer/footer-logo.png" alt="Footer Logo" class="footer-logo">
+                            <p class="footer__description">
+                            <span>
+                                Gemak, 1969'dan beri gemi inşası, bakım, çelik yapı üretimiyle sektörde lider, 4 tesiste global projelere hizmet veriyor. <br>
+                            </span>
+                                <span class="footer__description-span">
+<br>Daha fazlası için e-bültenimize kayıt olun!</span>
+                            </p>
+                        </div>
+                        <div class="footer__newsletter-row">
+                            <label class="footer__newsletter-input">
+                                <input name="" placeholder="E-Bülten" type="text">
+                            </label>
+                            <button class="footer__newsletter-button">
+                                Kayıt Ol</button>
+                        </div>
+                    </div>
 
-        <!-- Menü Linkleri -->
-        <div class="col-md-4">
-            <h5 class="footer-title">Kurumsal</h5>
-            <ul class="footer-links">
-                <li><a href="#">Gemak Group</a></li>
-                <li><a href="#">Grup Şirketleri</a></li>
-                <li><a href="#">Ar-Ge ve İnovasyon</a></li>
-            </ul>
+                    <div class="footer__links-row">
+                        <div class="footer__links-column">
+                            <div class="footer__links-column-wrapper-1">
+                                <div>
+                                    <div class="footer__links-divider-1">
+                                    </div>
+                                </div>
+                                <div class="footer__links-section-1">
+                                    <p class="footer__links-title ui heading size-headingxs">
+                                        Kurumsal
+                                    </p>
+                                    <ul class="footer__links-list">
+                                        <li>
+                                            <a href="#">
+                                                <p class="footer__contact-phone">
+                                                    Gemak Group
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <p class="footer__contact-phone">
+                                                    Grup Şirketleri
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <p class="footer__contact-phone">
+                                                    Ar-Ge ve İnovasyon
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer__links-column-wrapper-2">
+                                <div>
+                                    <div class="footer__links-divider">
+                                    </div>
+                                    <div class="footer__links-section-2">
+                                        <p class="footer__links-title">
+                                            Faaliyetler
+                                        </p>
 
-            <h5 class="footer-title mt-4">Faaliyetler</h5>
-            <ul class="footer-links">
-                <li><a href="#">Gemi & Offshore</a></li>
-                <li><a href="#">Endüstriyel Projeler</a></li>
-            </ul>
-        </div>
+                                        <ul class="footer__links-list">
+                                            <li>
+                                                <a href="#">
+                                                    <p class="footer__contact-phone">
+                                                        Gemi &amp; Offshore
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <p class="footer__contact-phone">
+                                                        Endüstriyel Projeler
+                                                    </p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-        <!-- İletişim -->
-        <div class="col-md-4">
-            <h5 class="footer-title">İletişim</h5>
-            <p class="footer-contact">📞 +90 216 581 23 00</p>
-            <p class="footer-contact">📞 +90 216 395 06 85</p>
-            <p class="footer-contact">📧 <a href="mailto:gemak@gemak.com">gemak@gemak.com</a></p>
-            <p class="footer-contact">📍 Tersaneler Cad. No:38 34944 Tuzla - İstanbul / Türkiye</p>
+                        <div class="footer__links-column-wrapper">
+                            <div>
+                                <div class="footer__links-divider">
+                                </div>
+                            </div>
+                            <div class="footer__links-section">
+                                <p class="footer__links-title">
+                                    Kariyer
+                                </p>
+                                <ul class="footer__links-list">
+                                    <li>
+                                        <a href="#">
+                                            <p class="footer__contact-phone">
+                                                İnsan Kaynakları
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="footer__contact-phone">
+                                                Aramıza Katılın
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-            <!-- Sosyal Medya -->
-            <div class="footer-social">
-                <a href="#"><img src="assets/images/icons/facebook.svg" alt="Facebook"></a>
-                <a href="#"><img src="assets/images/icons/linkedin.svg" alt="LinkedIn"></a>
-                <a href="#"><img src="assets/images/icons/instagram.svg" alt="Instagram"></a>
-                <a href="#"><img src="assets/images/icons/youtube.svg" alt="YouTube"></a>
+                        <div class="footer__contact-column">
+                            <div class="news-article__date-container">
+                                <p class="footer__links-title">
+                                    İletişim
+                                </p>
+                                <div class="footer__contact-divider">
+                                </div>
+                            </div>
+
+                            <div class="flex-col-center-start">
+                                <p class="footer__contact-phone">
+                                    +90 216 581 23 00
+                                </p>
+                                <p class="footer__contact-phone-1">
+                                    +90 216 395 06 85
+                                </p>
+                                <p class="footer__contact-phone-1">
+                                    gemak@gemak.com
+                                </p>
+                                <p class="footer__contact-address">
+                                    Tersaneler Cad. No:38 34944 Tuzla - Istanbul / Türkiye
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <div class="footer__legal">
+        <div class="footer__legal-row">
+            <div class="footer__legal-content">
+                <p class="footer__copyright ui text size-text_small">
+                    © 2025 Gemak All Rights Reserved.</p>
+                <div class="footer__legal-links-row">
+                    <p class="footer__legal-link ui text size-text_small">
+                        Bilgi Toplumu Hizmetleri</p>
+                    <div class="footer__legal-divider">
+                    </div>
+                    <div class="footer__social-media-row">
+                        <img src="assets/images/footer/facebook.svg" class="footer__social-media-icon" alt="Facebook">
+                        <img src="assets/images/footer/youtube.svg" class="footer__social-media-icon" alt="YouTube">
+                        <img src="assets/images/footer/instagram.svg" class="footer__social-media-icon" alt="Instagram">
+                        <img src="assets/images/footer/linkedin.svg" class="footer__social-media-icon" alt="LinkedIn">
 
-    <!-- Yasal Bilgilendirme -->
-    <div class="footer-legal text-center mt-4">
-        <p>&copy; 2025 GEMAK. Tüm Hakları Saklıdır.</p>
-        <a href="#">Bilgi Toplumu Hizmetleri</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>

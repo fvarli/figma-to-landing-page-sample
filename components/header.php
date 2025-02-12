@@ -1,4 +1,4 @@
-<header class="navbar navbar-expand-lg header bg-white shadow-sm">
+<header class="navbar navbar-expand-lg header bg-white">
     <div class="container-fluid header__top">
         <!-- Logo -->
         <a class="navbar-brand" href="/">
