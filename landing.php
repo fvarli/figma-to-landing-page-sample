@@ -214,84 +214,16 @@
     </section>
 
     <!-- Latest News Section -->
-    <section class="news-section py-5">
+    <section>
         <div class="container">
-            <!-- Başlık -->
-            <div class="mb-4">
-                <h4 class="news-subtitle">Son Haberler</h4>
-                <h2 class="news-title">Gemak ile İlgili Son Haberler, Duyurular ve Gelişmeler</h2>
-            </div>
+            Latest News Section
+        </div>
+    </section>
 
-            <!-- Haber Listesi -->
-            <div class="row pt-4">
-                <!-- Haber Kartı 1 -->
-                <div class="col-md-4">
-                    <div class="news-card">
-                        <img src="assets/images/news/news-1.png" class="news-image img-fluid" alt="News">
-                        <div class="news-content">
-                            <p class="news-date">20 Temmuz 2024</p>
-                            <h3 class="news-headline">
-                                Exciting Development from GEMAK SHIPYARD for LNGC and L...
-                            </h3>
-                            <p class="news-description">
-                                We are proud to announce that GEMAK SHIPYARD has been nominated as an approved partner by the renowned GTT...
-                            </p>
-                            <a href="#" class="news-read-more">
-                                Haberin Devamı
-                                <img src="assets/images/icons/arrow-right.svg" alt="Read More">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Haber Kartı 2 -->
-                <div class="col-md-4">
-                    <div class="news-card">
-                        <img src="assets/images/news/news-2.png" class="news-image img-fluid" alt="News">
-                        <div class="news-content">
-                            <p class="news-date">20 Temmuz 2024</p>
-                            <h3 class="news-headline">
-                                Another giant vessel has just docked in our graving dock.
-                            </h3>
-                            <p class="news-description">
-                                Another giant vessel has just docked in our graving dock. M.V. CMA CGM LOIRE: Length: 300 meters Width: 48 meters
-                            </p>
-                            <a href="#" class="news-read-more">
-                                Haberin Devamı
-                                <img src="assets/images/icons/arrow-right.svg" alt="Read More">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Haber Kartı 3 -->
-                <div class="col-md-4">
-                    <div class="news-card">
-                        <img src="assets/images/news/news-3.png" class="news-image img-fluid" alt="News">
-                        <div class="news-content">
-                            <p class="news-date">20 Temmuz 2024</p>
-                            <h3 class="news-headline">
-                                As Gemak Group, we participated in the SMM Hamburg 2024 betwe...
-                            </h3>
-                            <p class="news-description">
-                                A big thank you to everyone who visited our booth! It was a great pleasure to connect with shipowners, fleet operators, and industry...
-                            </p>
-                            <a href="#" class="news-read-more">
-                                Haberin Devamı
-                                <img src="assets/images/icons/arrow-right.svg" alt="Read More">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Daha Fazla Butonu -->
-            <div class="text-center mt-4">
-                <a href="#" class="btn btn-primary news-btn">
-                    Daha Fazla
-                    <img src="assets/images/icons/right-arrow.svg" alt="Arrow">
-                </a>
-            </div>
+    <!-- Contact Section -->
+    <section>
+        <div class="container">
+            Contact Section
         </div>
     </section>
 

@@ -361,6 +361,158 @@
 .news-btn:hover {
     background-color: #0056b3;
 }
+/* CTA ve Footer Bölümü */
+.cta-footer-section {
+    background: url('../images/footer/footer_area.png') no-repeat center center/cover;
+    color: white;
+    padding: 80px 0 0;
+    position: relative;
+}
+
+.cta-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Koyu overlay efekti */
+}
+
+.cta-title {
+    letter-spacing: -0.80px;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 48px;
+}
+
+.cta-description {
+    font-size: 20px;
+    font-weight: 400;
+    width: 48%;
+    line-height: 30px;
+}
+
+.cta-btn {
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 12px 20px;
+    background-color: #2a4899;
+    height: 44px;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.cta-btn img {
+    margin-left: 8px;
+}
+
+.cta-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    padding: 60px 0;
+    color: white;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.footer-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.footer-newsletter {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer-newsletter .form-control {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.newsletter-btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.footer-social {
+    margin-top: 15px;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social img {
+    width: 24px;
+}
+
+.footer-legal {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.footer-legal a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-legal a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer .row {
+        text-align: center;
+    }
+
+    .footer-newsletter {
+        flex-direction: column;
+    }
+}
 
 /* Responsive */
 
