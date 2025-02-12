@@ -124,6 +124,7 @@
     align-items: center;
     gap: 10px;
 }
+
 .facility-features img {
     width: 20px;
     height: 20px;
@@ -133,11 +134,12 @@
     margin-top: revert;
 }
 
-    /* Buton */
+/* Buton */
 .facility-btn {
     display: inline-flex;
     align-items: center;
     font-size: 16px;
+    height: 44px;
     font-weight: bold;
     padding: 8px 20px;
     background-color: #007bff;
@@ -159,6 +161,96 @@
 .facility-image {
     max-width: 100%;
     border-radius: 10px;
+}
+
+/* Innovation Section */
+.innovation-section {
+    padding: 100px 0;
+}
+.innovation-section .innovation-area {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.innovation-section .innovation-image {
+    width: fit-content;
+}
+/* Başlık ve Açıklamalar */
+.innovation-title {
+    letter-spacing: -0.80px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.innovation-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.innovation-description {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    align-self: stretch;
+    line-height: 155%;
+}
+
+/* Alt Bilgi Başlıkları */
+.innovation-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Buton */
+.innovation-btn {
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 20px;
+    height: 44px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.innovation-btn img {
+    margin-left: 10px;
+}
+
+.innovation-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Video Alanı */
+.video-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+/* Video Görseli */
+.video-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.experience-section .experience-description {
+    font-size: 20px;
+    font-weight: 400;;
+    line-height: 30px;
+}
+
+.experience-section .experience-box p {
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    line-height: 155%;
 }
 
 /* Responsive */
@@ -249,6 +341,27 @@
         font-size: 14px;
         padding: 10px 16px;
     }
+
+    .innovation-title {
+        font-size: 22px;
+    }
+
+    .innovation-description {
+        font-size: 15px;
+    }
+
+    .innovation-btn {
+        max-width: 200px;
+        font-size: 14px;
+    }
+
+    .innovation-text {
+        font-size: 15px;
+    }
+
+    .video-image {
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -268,18 +381,4 @@
         font-size: 12px;
         padding: 8px 12px;
     }
-}
-
-
-.experience-section .experience-description {
-    font-size: 20px;
-    font-weight: 400;;
-    line-height: 30px;
-}
-
-.experience-section .experience-box p {
-    font-size: 18px;
-    font-weight: 400;
-    width: 100%;
-    line-height: 155%;
 }

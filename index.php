@@ -155,19 +155,61 @@
                     <!-- Detaylı Bilgi Butonu -->
                     <a href="#" class="btn btn-primary facility-btn mt-5">
                         Detaylı Bilgi
-                        <img src="assets/images/facility-highlights/right-arrow.svg" alt="Arrow">
+                        <img src="assets/images/icons/right-arrow.svg" alt="Arrow">
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-
-
     <!-- Innovation Section -->
-    <section>
-        <div class="container">
-            Innovation Section
+    <section class="innovation-section pt-md-5 py-5">
+        <div class="container pb-md-5 pb-sm-4">
+            <div class="row align-items-center innovation-area">
+                <img src="assets/images/innovations/innovation-area.png" class="innovation-image" alt="Innovation">
+                <!-- Sol Kısım (Metinler) -->
+
+                    <div class="innovation-title">Tersane sektörünün ilk Ar-Ge Merkezi</div>
+                    <p class="innovation-description w-75 pt-2 pb-4">
+                        Gemak Grup, 2016’da kurulan Ar-Ge Merkezi ile inovasyonu ve çalışan yeteneklerini geliştirerek
+                        rekabet avantajı sağlamakta, kaliteli ve güvenli üretim teknolojileri geliştirmektedir.
+                    </p>
+
+                <div>
+
+                    <a href="#" class="btn btn-primary innovation-btn w-auto">
+                        Detaylı Bilgi
+                        <img src="assets/images/icons/right-arrow.svg" alt="Arrow">
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Ekstra Bilgi Alanı -->
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <h4 class="innovation-subtitle">İnovasyon ve Yetkinlikler</h4>
+                    <p class="innovation-text">
+                        İnovasyon yeteneği grubun rekabet gücünü belirleyen en önemli unsurudur. Grup faaliyetlerinin temelini, müşterilerin bugünkü ve gelecekteki ihtiyaçlarını karşılamaya odaklanan çözümler ve hizmetler oluşturmaktadır.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="innovation-subtitle">Başarıyı Destekleyen Projeler</h4>
+                    <p class="innovation-text">
+                        Ar-Ge çalışmalarıyla sektörde üstünlüğünü sürdürülebilir kılmaya özen gösterilmektedir. Bu doğrultuda yapılan yatırımlar yenilikçi anlayışla rekabette avantaj sağlamaktadır.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="innovation-subtitle">Özgün Tasarımlar ve Yazılımlar</h4>
+                    <p class="innovation-text">
+                        Ar-Ge merkezinde üretilen özgün tasarımlar ulusal ve uluslararası standartlara uygun olarak geliştirilmektedir. Profesyonel yazılımlar kullanılarak çağın zorluklarına yanıt veren çözümler sunulmaktadır.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Video Alanı -->
+        <div class="video-container text-center">
+            <img src="assets/images/innovations/video-area.png" class="video-image" alt="Video">
         </div>
     </section>
 
