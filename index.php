@@ -177,7 +177,7 @@
 
                 <div>
 
-                    <a href="#" class="btn btn-primary innovation-btn w-auto">
+                    <a href="#" class="innovation-btn">
                         Detaylı Bilgi
                         <img src="assets/images/icons/right-arrow.svg" alt="Arrow">
                     </a>

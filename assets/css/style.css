@@ -147,6 +147,7 @@
     text-decoration: none;
     border-radius: 25px;
     transition: 0.3s;
+    box-shadow: 0 0 40px 0 #1957ff;
 }
 
 .facility-btn img {
@@ -207,16 +208,25 @@
 
 /* Buton */
 .innovation-btn {
-    display: inline-flex;
-    align-items: center;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 12px 20px;
+    background-color: #1957ff;
+    box-shadow: 0 0 40px 0 #1957ff;
+    color: var(--white_a700);
     height: 44px;
-    background-color: #007bff;
-    color: #fff;
+    padding-left: var(--space-2xl);
+    padding-right: var(--space-2xl);
+    font-size: 18px;
+    border-radius: 22px;
+    text-align: center;
+    display: inline-flex;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-weight: 500;
+    gap: 8px;
+    min-width: 164px;
     text-decoration: none;
-    border-radius: 25px;
     transition: 0.3s;
 }
 
