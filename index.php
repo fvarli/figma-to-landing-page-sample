@@ -231,10 +231,10 @@
                         <div class="news-content">
                             <p class="news-date">20 Temmuz 2024</p>
                             <h3 class="news-headline">
-                                GEMAK SHIPYARD, LNGC ve LNG Yakıtlı Gemi Sahipleri için Onaylandı!
+                                Exciting Development from GEMAK SHIPYARD for LNGC and L...
                             </h3>
                             <p class="news-description">
-                                GEMAK SHIPYARD, ünlü GTT (Gaztransport & Technigaz, France) tarafından onaylı bakım ve onarım ortağı olarak seçildi.
+                                We are proud to announce that GEMAK SHIPYARD has been nominated as an approved partner by the renowned GTT...
                             </p>
                             <a href="#" class="news-read-more">
                                 Haberin Devamı
@@ -251,10 +251,10 @@
                         <div class="news-content">
                             <p class="news-date">20 Temmuz 2024</p>
                             <h3 class="news-headline">
-                                Dev Bir Gemi Tersanemize Demir Attı
+                                Another giant vessel has just docked in our graving dock.
                             </h3>
                             <p class="news-description">
-                                300 metre uzunluğunda ve 48 metre genişliğindeki M.V. CMA CGM LOIRE gemisi tersanemize yanaştı.
+                                Another giant vessel has just docked in our graving dock. M.V. CMA CGM LOIRE: Length: 300 meters Width: 48 meters
                             </p>
                             <a href="#" class="news-read-more">
                                 Haberin Devamı
@@ -271,10 +271,10 @@
                         <div class="news-content">
                             <p class="news-date">20 Temmuz 2024</p>
                             <h3 class="news-headline">
-                                Gemak Group, SMM Hamburg 2024 Fuarında!
+                                As Gemak Group, we participated in the SMM Hamburg 2024 betwe...
                             </h3>
                             <p class="news-description">
-                                Hamburg'da düzenlenen SMM 2024 Fuarında denizcilik sektörü liderleri ile buluştuk.
+                                A big thank you to everyone who visited our booth! It was a great pleasure to connect with shipowners, fleet operators, and industry...
                             </p>
                             <a href="#" class="news-read-more">
                                 Haberin Devamı

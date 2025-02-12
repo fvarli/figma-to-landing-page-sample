@@ -277,16 +277,13 @@
     line-height: 48px;
 }
 
-/* Haber Kartı */
+/* Haber Kartları */
 .news-card {
-    background: #fff;
     border-radius: 8px;
     overflow: hidden;
-    transition: transform 0.3s ease-in-out;
-}
-
-.news-card:hover {
-    transform: translateY(-5px);
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Kartların eşit yükseklikte olmasını sağlar */
 }
 
 /* Haber Görseli */
@@ -297,35 +294,44 @@
 
 /* Haber İçeriği */
 .news-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
     padding: 20px;
 }
 
+/* Tarih */
 .news-date {
     color: #2a4899 !important;
     font-size: 16px;
     font-weight: 400;
 }
 
+/* Başlık */
 .news-headline {
     font-size: 20px;
-    font-weight: 700;
-    width: 100%;
-    line-height: 132.5%;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
 }
 
+/* Açıklama */
 .news-description {
     font-size: 16px;
-    font-weight: 400;
-    line-height: 180%;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: auto; /* Kartları eşit uzunlukta tutar, buton her zaman aşağıda kalır */
 }
 
-/* Haber Detayı Butonu */
+/* "Haberin Devamı" Butonu */
 .news-read-more {
+    padding-top: 22px;
     display: ruby;
     align-items: center;
     font-size: 16px;
     color: #2A4899;
     text-decoration: none;
+    margin-top: auto; /* Kartın alt kısmına sabitlenmesini sağlar */
 }
 
 .news-read-more img {
