@@ -231,6 +231,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 30px;
+    overflow: hidden;
 }
 
 /* Video Görseli */
@@ -238,6 +239,8 @@
     width: 100%;
     height: auto;
     border-radius: 8px;
+    display: block; /* Sayfa taşımasını önler */
+    object-fit: cover; /* Görüntü orantılı şekilde küçülür */
 }
 
 .experience-section .experience-description {
@@ -359,8 +362,13 @@
         font-size: 15px;
     }
 
+    .video-container {
+        padding-top: 20px;
+    }
+
     .video-image {
         max-width: 100%;
+        height: auto;
     }
 }
 
@@ -380,5 +388,15 @@
     .facility-btn {
         font-size: 12px;
         padding: 8px 12px;
+    }
+
+    .video-container {
+        padding-top: 15px;
+    }
+
+    .video-image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px; /* Daha küçük ekranlar için */
     }
 }
