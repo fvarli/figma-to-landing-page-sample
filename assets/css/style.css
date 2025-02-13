@@ -77,6 +77,20 @@
     margin: 0 10px;
 }
 
+.projects-divider {
+    height: 1px;
+    margin-top: 30px;
+    background-color: #000000;
+}
+
+.references-description p {
+    font-size: 18px;
+}
+
+.references-image{
+    flex: auto;
+}
+
 /* Facility Highlights Section */
 .facility-highlights {
     position: relative;

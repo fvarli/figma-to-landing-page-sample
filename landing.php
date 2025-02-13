@@ -13,10 +13,267 @@
 
 <main>
 
-    <!-- Hero Banner Section -->
-    <section>
+    <!-- Referanslar Section -->
+    <section class="news-section py-5">
         <div class="container">
-            Hero Banner Section
+            <!-- Başlık -->
+            <div class="mb-4">
+                <h4 class="news-subtitle">Referanslar</h4>
+                <h2 class="news-title w-50">Gemak Grup’un Mühendislikteki Gücünü Kanıtlayan Prestijli Projeler</h2>
+            </div>
+            <div>
+                <div class="projects-divider">
+                </div>
+            </div>
+
+            <div class="row pt-5 pb-5">
+                <div class="col-12 d-flex references">
+                    <div class="col-lg-5 references-description">
+                        <p>Gemak Grup, 50 yıllık mühendislik tecrübesi ve 170 kişilik uzman mühendis kadrosuyla başta gemi sanayii olmak üzere büyük ölçekli çelik konstrüksiyon projelerinde bölgenin önde gelen oyuncularından biri olmuştur. 2013 yılında Yavuz Sultan Selim Köprüsü'nün karmaşık hibrit tasarımına sahip çelik tabliyelerinin üretim ihalesini kazanarak yaklaşık 50.000 ton çelik tabliyeyi rekor sürede sahaya taşımıştır. Bu süreçte edinilen deneyim, Gemak’ın sofistike mühendislik projelerindeki başarısını perçinlemiştir.</p>
+                        <p>Endüstriyel projelere yönelen Gemak Grup, EN 1090-2 Execution Class 4 ve EN ISO 38342 gibi uluslararası sertifikalar alarak alüminyum ve çelik yapıların yanı sıra basınçlı kaplar ve silindirik yapılar üretimi konusundaki yetkinliğini artırmıştır. DNV onaylı üretim kapasitesiyle Gemak, 3. Boğaz Köprüsü'nde edindiği bilgi birikimi sayesinde büyük ölçekli endüstriyel projelerde rekabet avantajı sağlamaktadır.
+                        </p>
+                    </div>
+                    <div class="col-lg-1">
+
+                    </div>
+                    <div class="col-lg-5 references-image">
+                        <img src="assets/images/projects/projects.png" class="news-image img-fluid" alt="Projects">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Başlık -->
+            <div class="mb-4 pt-5">
+                <h4 class="news-subtitle">Referanslar</h4>
+                <h2 class="news-title w-50">Gemak Grup’un Mühendislikteki Gücünü Kanıtlayan Prestijli Projeler</h2>
+            </div>
+            <div>
+                <div class="projects-divider">
+                </div>
+            </div>
+            <!-- Haber Listesi -->
+            <div class="row pt-4">
+                <!-- Haber Kartı 1 -->
+                <div class="col-md-4">
+                    <div class="news-card">
+                        <img src="assets/images/projects/projects-1.png" class="news-image img-fluid" alt="Projects">
+                        <div class="news-content">
+                            <h3 class="news-headline">
+                                EFGL Floating Offshore Windfarm Floaters (ONGOING)
+                            </h3>
+                            <p class="news-description">
+                                Three sets of offshore windfarm floaters, each consists of three floater columns, is being
+                            </p>
+                            <a href="#" class="news-read-more pt-4 pb-4">
+                                Daha Fazla
+                                <img src="assets/images/icons/arrow-right.svg" alt="Read More">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Haber Kartı 2 -->
+                <div class="col-md-4">
+                    <div class="news-card">
+                        <img src="assets/images/projects/projects-2.png" class="news-image img-fluid" alt="Projects">
+                        <div class="news-content">
+                            <h3 class="news-headline">
+                                BORWIN 5 Offshore Platform Topside Steel Blocks (ONGOING)
+                            </h3>
+                            <p class="news-description">
+                                Gemak Group is being executed fabrication, painting and steel outfitting of 40 units of steel blocks
+                            </p>
+                            <a href="#" class="news-read-more pt-4 pb-4">
+                                Daha Fazla
+                                <img src="assets/images/icons/arrow-right.svg" alt="Read More">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Haber Kartı 3 -->
+                <div class="col-md-4">
+                    <div class="news-card">
+                        <img src="assets/images/projects/projects-3.png" class="news-image img-fluid" alt="Projects">
+                        <div class="news-content">
+                            <h3 class="news-headline">
+                                SOREK II Desalination Plant (ONGOING)
+                            </h3>
+                            <p class="news-description">
+                                Development of workshop drawings; fabrication and delivery of 10+6 desalination modules having total 16mill liters/year water production capacity.
+                            </p>
+                            <a href="#" class="news-read-more pt-4 pb-4">
+                                Daha Fazla
+                                <img src="assets/images/icons/arrow-right.svg" alt="Read More">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Daha Fazla Butonu -->
+            <div class="text-center pt-5">
+                <a href="#" class="btn btn-primary news-btn">
+                    Tüm Projeler
+                    <img src="assets/images/icons/right-arrow.svg" alt="Arrow">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facility Highlights Section -->
+    <section class="facility-highlights">
+        <div class="facility-overlay"></div> <!-- Koyu arkaplan efekti -->
+        <div class="container position-relative">
+            <div class="row align-items-center">
+                <!-- Sol Kısım -->
+                <div class="col-lg-6 text-white">
+                    <h4 class="facility-subtitle">Tesisler</h4>
+                    <h2 class="facility-title">Gemak Altınova</h2>
+                    <p class="facility-description">
+                        Gemak Altınova, 2012 yılında Gemak Grup tarafından kurulmuştur.
+                        2013 yılında, 3. Boğaz Köprüsüne ait çelik tabliyelerin imalat
+                        sözleşmesinin imzalanması ile kurulum ve altyapı çalışmalarına başlanmıştır.
+                    </p>
+
+                    <!-- Öne Çıkan Özellikler -->
+                    <div class="row facility-features">
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
+                            <p>Çelik İmalat ve Boyama Kapasitesi</p>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
+                            <p>İleri Teknoloji Atık Yönetim Sistemi</p>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
+                            <p>Yüksek Taşıma Kapasiteli Altyapı</p>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
+                            <p>Enerji Gemisi (Powership) Dönüşüm Uzmanlığı</p>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
+                            <p>3. Boğaz Köprüsü Üretim Başarısı</p>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
+                            <p>121.000 m² Modern Tesis Alanı</p>
+                        </div>
+                    </div>
+
+
+                    <!-- Detaylı Bilgi Butonu -->
+                    <a href="#" class="btn btn-primary facility-btn mt-5">
+                        Detaylı Bilgi
+                        <img src="assets/images/icons/right-arrow.svg" alt="Arrow">
+                    </a>
+                </div>
+            </div>
+
+            <div class="slider-container pt-5">
+                <img src="assets/images/facility-highlights/slider-left-arrow.svg" class="left" alt="Slider Left Arrow">
+                <img src="assets/images/facility-highlights/slider-right-arrow.svg" class="right" alt="Slider Right Arrow">
+                <div class="dots">
+                    <span class="active"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section class="news-section py-5">
+        <div class="container">
+            <!-- Başlık -->
+            <div class="mb-4">
+                <h4 class="news-subtitle">Son Haberler</h4>
+                <h2 class="news-title">Gemak ile İlgili Son Haberler, Duyurular ve Gelişmeler</h2>
+            </div>
+
+            <!-- Haber Listesi -->
+            <div class="row pt-4">
+                <!-- Haber Kartı 1 -->
+                <div class="col-md-4">
+                    <div class="news-card">
+                        <img src="assets/images/news/news-1.png" class="news-image img-fluid" alt="News">
+                        <div class="news-content">
+                            <p class="news-date">20 Temmuz 2024</p>
+                            <h3 class="news-headline">
+                                Exciting Development from GEMAK SHIPYARD for LNGC and LNG-Fueled Vessel Owners and Managers!
+                            </h3>
+                            <p class="news-description">
+                                We are proud to announce that GEMAK SHIPYARD has been nominated as an approved partner by the renowned GTT (Gaztransport & Technigaz, France) for the maintenance and repair of membrane containment systems.
+                            </p>
+                            <a href="#" class="news-read-more pt-4 pb-4">
+                                Haberin Devamı
+                                <img src="assets/images/icons/arrow-right.svg" alt="Read More">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Haber Kartı 2 -->
+                <div class="col-md-4">
+                    <div class="news-card">
+                        <img src="assets/images/news/news-2.png" class="news-image img-fluid" alt="News">
+                        <div class="news-content">
+                            <p class="news-date">20 Temmuz 2024</p>
+                            <h3 class="news-headline">
+                                Another giant vessel has just docked in our graving dock.
+                            </h3>
+                            <p class="news-description">
+                                Another giant vessel has just docked in our graving dock. M.V. CMA CGM LOIRE: Length: 300 meters Width: 48 meters
+                            </p>
+                            <a href="#" class="news-read-more pt-4 pb-4">
+                                Haberin Devamı
+                                <img src="assets/images/icons/arrow-right.svg" alt="Read More">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Haber Kartı 3 -->
+                <div class="col-md-4">
+                    <div class="news-card">
+                        <img src="assets/images/news/news-3.png" class="news-image img-fluid" alt="News">
+                        <div class="news-content">
+                            <p class="news-date">20 Temmuz 2024</p>
+                            <h3 class="news-headline">
+                                As Gemak Group, we participated in the SMM Hamburg 2024 between 3-6 September in Hamburg, Germany.
+                            </h3>
+                            <p class="news-description">
+                                A big thank you to everyone who visited our booth! It was a great pleasure to connect with shipowners, fleet operators, and industry professionals from all around the world.
+                            </p>
+                            <a href="#" class="news-read-more pt-4 pb-4">
+                                Haberin Devamı
+                                <img src="assets/images/icons/arrow-right.svg" alt="Read More">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Daha Fazla Butonu -->
+            <div class="text-center pt-5">
+                <a href="#" class="btn btn-primary news-btn">
+                    Daha Fazla
+                    <img src="assets/images/icons/right-arrow.svg" alt="Arrow">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Innovation Section -->
+    <section class="innovation-section pt-md-5 py-5">
+        <!-- Video Alanı -->
+        <div class="video-container text-center">
+            <img src="assets/images/innovations/video-area.png" class="video-image" alt="Video">
         </div>
     </section>
 
@@ -105,125 +362,6 @@
 
             </div>
 
-        </div>
-    </section>
-
-    <!-- Facility Highlights Section -->
-    <section class="facility-highlights">
-        <div class="facility-overlay"></div> <!-- Koyu arkaplan efekti -->
-        <div class="container position-relative">
-            <div class="row align-items-center">
-                <!-- Sol Kısım -->
-                <div class="col-lg-6 text-white">
-                    <h4 class="facility-subtitle">Tesisler</h4>
-                    <h2 class="facility-title">Gemak Altınova</h2>
-                    <p class="facility-description">
-                        Gemak Altınova, 2012 yılında Gemak Grup tarafından kurulmuştur.
-                        2013 yılında, 3. Boğaz Köprüsüne ait çelik tabliyelerin imalat
-                        sözleşmesinin imzalanması ile kurulum ve altyapı çalışmalarına başlanmıştır.
-                    </p>
-
-                    <!-- Öne Çıkan Özellikler -->
-                    <div class="row facility-features">
-                        <div class="col-md-6 d-flex align-items-center">
-                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
-                            <p>Çelik İmalat ve Boyama Kapasitesi</p>
-                        </div>
-                        <div class="col-md-6 d-flex align-items-center">
-                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
-                            <p>İleri Teknoloji Atık Yönetim Sistemi</p>
-                        </div>
-                        <div class="col-md-6 d-flex align-items-center">
-                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
-                            <p>Yüksek Taşıma Kapasiteli Altyapı</p>
-                        </div>
-                        <div class="col-md-6 d-flex align-items-center">
-                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
-                            <p>Enerji Gemisi (Powership) Dönüşüm Uzmanlığı</p>
-                        </div>
-                        <div class="col-md-6 d-flex align-items-center">
-                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
-                            <p>3. Boğaz Köprüsü Üretim Başarısı</p>
-                        </div>
-                        <div class="col-md-6 d-flex align-items-center">
-                            <img src="assets/images/facility-highlights/checkmark.svg" alt="Checkmark">
-                            <p>121.000 m² Modern Tesis Alanı</p>
-                        </div>
-                    </div>
-
-
-                    <!-- Detaylı Bilgi Butonu -->
-                    <a href="#" class="btn btn-primary facility-btn mt-5">
-                        Detaylı Bilgi
-                        <img src="assets/images/icons/right-arrow.svg" alt="Arrow">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Innovation Section -->
-    <section class="innovation-section pt-md-5 py-5">
-        <div class="container pb-md-5 pb-sm-4">
-            <div class="row align-items-center innovation-area">
-                <img src="assets/images/innovations/innovation-area.png" class="innovation-image" alt="Innovation">
-                <!-- Sol Kısım (Metinler) -->
-
-                    <div class="innovation-title">Tersane sektörünün ilk Ar-Ge Merkezi</div>
-                    <p class="innovation-description w-75 pt-2 pb-4">
-                        Gemak Grup, 2016’da kurulan Ar-Ge Merkezi ile inovasyonu ve çalışan yeteneklerini geliştirerek
-                        rekabet avantajı sağlamakta, kaliteli ve güvenli üretim teknolojileri geliştirmektedir.
-                    </p>
-
-                <div>
-
-                    <a href="#" class="btn btn-primary innovation-btn w-auto">
-                        Detaylı Bilgi
-                        <img src="assets/images/icons/right-arrow.svg" alt="Arrow">
-                    </a>
-                </div>
-
-            </div>
-
-            <!-- Ekstra Bilgi Alanı -->
-            <div class="row mt-5">
-                <div class="col-md-4">
-                    <h4 class="innovation-subtitle">İnovasyon ve Yetkinlikler</h4>
-                    <p class="innovation-text">
-                        İnovasyon yeteneği grubun rekabet gücünü belirleyen en önemli unsurudur. Grup faaliyetlerinin temelini, müşterilerin bugünkü ve gelecekteki ihtiyaçlarını karşılamaya odaklanan çözümler ve hizmetler oluşturmaktadır.
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <h4 class="innovation-subtitle">Başarıyı Destekleyen Projeler</h4>
-                    <p class="innovation-text">
-                        Ar-Ge çalışmalarıyla sektörde üstünlüğünü sürdürülebilir kılmaya özen gösterilmektedir. Bu doğrultuda yapılan yatırımlar yenilikçi anlayışla rekabette avantaj sağlamaktadır.
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <h4 class="innovation-subtitle">Özgün Tasarımlar ve Yazılımlar</h4>
-                    <p class="innovation-text">
-                        Ar-Ge merkezinde üretilen özgün tasarımlar ulusal ve uluslararası standartlara uygun olarak geliştirilmektedir. Profesyonel yazılımlar kullanılarak çağın zorluklarına yanıt veren çözümler sunulmaktadır.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- Video Alanı -->
-        <div class="video-container text-center">
-            <img src="assets/images/innovations/video-area.png" class="video-image" alt="Video">
-        </div>
-    </section>
-
-    <!-- Latest News Section -->
-    <section>
-        <div class="container">
-            Latest News Section
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section>
-        <div class="container">
-            Contact Section
         </div>
     </section>
 
