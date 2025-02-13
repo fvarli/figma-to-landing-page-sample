@@ -77,6 +77,32 @@
     margin: 0 10px;
 }
 
+.hero-banner-section {
+    position: relative;
+}
+
+.hero-banner-section .row {
+    display: flex;
+    align-items: center;
+}
+
+.home-banner-left,
+.home-banner-right {
+    object-fit: cover; /* Resmin tamamı alanı kaplar */
+}
+
+.arrow-down {
+    position: absolute;
+    left: 50%;
+    bottom: 75px;
+    transform: translateX(-50%);
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50% { transform: translateX(-50%) translateY(10px); }
+}
+
 .projects-divider {
     height: 1px;
     margin-top: 30px;
@@ -320,6 +346,10 @@
     border-radius: 8px;
     display: block; /* Sayfa taşımasını önler */
     object-fit: cover; /* Görüntü orantılı şekilde küçülür */
+}
+
+.experience-section .experience-area {
+    border: 1px solid #000000;
 }
 
 .experience-section .experience-description {
@@ -732,7 +762,7 @@
 }
 
 .footer__contact-column {
-    gap: 24px;
+    gap: 12px;
     align-self: center;
     display: flex;
     width: 26%;
@@ -769,7 +799,6 @@
 
 .footer__contact-phone-1 {
     color: var(--white_a700) !important;
-    margin-top: 10px;
     font-size: 15px;
     font-weight: 400;
 }

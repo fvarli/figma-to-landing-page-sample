@@ -14,19 +14,34 @@
 <main>
 
     <!-- Hero Banner Section -->
-    <section>
-        <div class="container">
-            Hero Banner Section
+    <section class="hero-banner-section pb-5 position-relative">
+        <div class="row g-0">
+            <!-- Sol Görsel -->
+            <div class="col-lg-6">
+                <img src="assets/images/home/home-banner-left.png" class="home-banner-left img-fluid w-100" alt="Home">
+            </div>
+            <!-- Sağ Görsel -->
+            <div class="col-lg-6">
+                <img src="assets/images/home/home-banner-right.png" class="home-banner-right img-fluid w-100" alt="Home">
+            </div>
+        </div>
+
+        <!-- Aşağı Ok İkonu -->
+        <div class="arrow-down">
+            <img src="assets/images/home/arrow-down.svg" alt="Down Arrow">
         </div>
     </section>
+
 
     <!-- Experience Section -->
     <section class="experience-section pt-5 pb-5">
         <div class="container">
             <!-- Başlık ve Açıklama -->
-            <div class="row col-lg-6">
-                <h2 class="fw-bold fs-1">50 Yıllık Deneyim</h2>
-                <p class="experience-description">Yarım asrı aşkın bir süredir, gemi inşası ve denizcilik sektöründe uzmanlaşarak küresel ölçekte güvenilir projelere imza atıyoruz.</p>
+            <div class="row experience-area">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold fs-1">50 Yıllık Deneyim</h2>
+                    <p class="experience-description">Yarım asrı aşkın bir süredir, gemi inşası ve denizcilik sektöründe uzmanlaşarak küresel ölçekte güvenilir projelere imza atıyoruz.</p>
+                </div>
             </div>
 
             <!-- Bilgiler Grid Sistemi -->
