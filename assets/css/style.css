@@ -91,6 +91,111 @@
     object-fit: cover; /* Resmin tamamı alanı kaplar */
 }
 
+/* Hero Banner */
+.hero-banner-landing {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Navbar İçine Giren Arka Plan */
+.hero-bg-landing {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.header-landing {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding: 15px 0;
+}
+
+.hero-overlay-landing {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* İçerik */
+.hero-content-landing {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+}
+
+/* Başlık */
+.hero-title-landing {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Açıklama */
+.hero-description-landing {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Buton */
+.hero-btn-landing {
+    display: inline-block;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 2px solid white;
+    transition: 0.3s ease-in-out;
+}
+
+.hero-btn-landing:hover {
+    background: white;
+    color: black;
+}
+
+/* Navbar Customization */
+.header__logo-landing {
+    height: 50px;
+}
+
+.header__menu-item-landing {
+    font-weight: bold;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+.header__menu-item-landing:hover {
+    color: #2a4899;
+}
+
+.header__search-landing {
+    height: 20px;
+    cursor: pointer;
+    filter: invert(1);
+}
+
+.header__divider-landing {
+    width: 1px;
+    height: 20px;
+    background: white;
+    margin: 0 10px;
+}
 /* Beyaz Orta Çizgi */
 .middle-divider {
     position: absolute;
