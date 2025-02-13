@@ -26,6 +26,9 @@
             </div>
         </div>
 
+        <!-- Orta Beyaz Çizgi -->
+        <div class="middle-divider"></div>
+
         <!-- Aşağı Ok İkonu -->
         <div class="arrow-down">
             <img src="assets/images/home/arrow-down.svg" alt="Down Arrow">

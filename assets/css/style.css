@@ -91,6 +91,17 @@
     object-fit: cover; /* Resmin tamamı alanı kaplar */
 }
 
+/* Beyaz Orta Çizgi */
+.middle-divider {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 8px;
+    height: 85%;
+    background-color: white;
+    transform: translateX(-50%);
+}
+
 .arrow-down {
     position: absolute;
     left: 50%;
