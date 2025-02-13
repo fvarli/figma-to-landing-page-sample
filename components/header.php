@@ -1,5 +1,5 @@
 <header class="navbar navbar-expand-lg header bg-white">
-    <div class="container-fluid header__top">
+    <div class="container-fluid header__top mx-5">
         <!-- Logo -->
         <a class="navbar-brand" href="/">
             <img src="assets/images/gemak-logo.png" alt="Logo" class="header__logo">
