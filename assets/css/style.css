@@ -98,13 +98,11 @@
 /* İçerik */
 .facility-subtitle {
     font-size: 18px;
-    font-weight: bold;
     color: #f1f1f1;
 }
 
 .facility-title {
     font-size: 32px;
-    font-weight: bold;
     margin-bottom: 15px;
 }
 
@@ -162,6 +160,60 @@
 .facility-image {
     max-width: 100%;
     border-radius: 10px;
+}
+
+.slider-container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Sol ve Sağ Oklar */
+.left, .right {
+    position: absolute;
+    padding: 10px 15px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.3s;
+}
+
+.left:hover, .right:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* Sol Ok */
+.left {
+    left: 10px;
+}
+
+/* Sağ Ok */
+.right {
+    right: 10px;
+}
+
+/* Nokta Göstergeleri */
+.dots {
+    text-align: center;
+    padding: 12px;
+    position: absolute;
+    width: 100%;
+}
+
+.dots span {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.dots span.active {
+    background-color: #ffffff;
+    opacity: 1;
 }
 
 /* Innovation Section */
@@ -915,6 +967,15 @@
     .facility-btn {
         font-size: 12px;
         padding: 8px 12px;
+    }
+
+    .left, .right {
+        font-size: 24px;
+        padding: 8px 12px;
+    }
+    .dots span {
+        height: 10px;
+        width: 10px;
     }
 
     .video-container {

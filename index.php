@@ -159,6 +159,18 @@
                     </a>
                 </div>
             </div>
+
+            <div class="slider-container pt-5">
+                <img src="assets/images/facility-highlights/slider-left-arrow.svg" class="left" alt="Slider Left Arrow">
+                <img src="assets/images/facility-highlights/slider-right-arrow.svg" class="right" alt="Slider Right Arrow">
+                <div class="dots">
+                    <span class="active"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
         </div>
     </section>
 
