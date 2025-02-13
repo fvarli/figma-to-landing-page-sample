@@ -14,7 +14,7 @@
 <main>
 
     <!-- Referanslar Section -->
-    <section class="news-section py-5">
+    <section class="news-section">
         <div class="container">
             <!-- Başlık -->
             <div class="mb-4">
@@ -270,7 +270,7 @@
     </section>
 
     <!-- Innovation Section -->
-    <section class="innovation-section pt-md-5 py-5">
+    <section class="innovation-section">
         <!-- Video Alanı -->
         <div class="video-container text-center">
             <img src="assets/images/innovations/video-area.png" class="video-image" alt="Video">

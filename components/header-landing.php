@@ -43,7 +43,8 @@
             çelik yapı üretimi ve büyük ölçekli endüstriyel projelerde kalite, hız ve güvenin adresidir.
         </p>
         <a href="#" class="hero-btn-landing">
-            <span>↓ Daha Fazla</span>
+            <img src="assets/images/home/arrow-down.svg" alt="Down Arrow">
+            <span class="m-lg-2"> Daha Fazla</span>
         </a>
     </div>
     <img src="assets/images/home/hero-bg.png" alt="Hero Image" class="hero-bg-landing">
